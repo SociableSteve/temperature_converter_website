@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#temp_form {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #bbb;
+    margin: 0 auto;
+}
+
+.form_group {
+    margin: 10px;
+}
+
+.form_group input {
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form_group label {
+    display: block;
+    margin-bottom: 5px;
+}
